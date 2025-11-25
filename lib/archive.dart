@@ -13,7 +13,7 @@ class JobInfo extends StatelessWidget {
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 10.0),
-            child: Image.asset('assets/images/likeLogo.png', width: 24, height: 24),
+            child: SizedBox(child: Image.asset('assets/images/likeLogo.png',)),
           ),
         ],
       ),
@@ -21,7 +21,6 @@ class JobInfo extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // --- HEADER JOB ---
             Container(
               padding: const EdgeInsets.all(16),
               decoration: const BoxDecoration(color: Colors.white),
@@ -70,7 +69,6 @@ class JobInfo extends StatelessWidget {
             ),
             const SizedBox(height: 5),
 
-            // --- APPLY BEFORE + JOB NATURE ---
             Container(
               padding: const EdgeInsets.all(16),
               decoration: const BoxDecoration(color: Colors.white),
@@ -182,7 +180,6 @@ class JobInfo extends StatelessWidget {
 
             const SizedBox(height: 5),
 
-            // --- JOB DESCRIPTION ---
             Container(
               decoration: const BoxDecoration(color: Colors.white),
               child: Padding(
@@ -236,7 +233,6 @@ class JobInfo extends StatelessWidget {
             ),
             const SizedBox(height: 5),
 
-            // --- ROLES AND RESPONSIBILITIES ---
             Container(
               padding: const EdgeInsets.all(16),
               decoration: const BoxDecoration(color: Colors.white),
