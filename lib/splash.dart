@@ -53,8 +53,7 @@ class JobList extends StatelessWidget {
               const SizedBox(height: 16),
               jobCard(context, "Middle Motion Designer", "Canva"),
               const SizedBox(height: 24),
-
-              // 🔹 Раздел ANDROID
+              
               const Text(
                 "ANDROID",
                 style: TextStyle(
